@@ -1,0 +1,99 @@
+{
+  "name": "scento-fragrance-index",
+  "title": "Scento Fragrance Index — European perfume decant demand (Oct 2025–Sep 2026)",
+  "version": "2026-Q3",
+  "description": "Scento's open index of European perfume decant demand from paid orders October 2025 to September 2026: top perfumes and houses, by country, gender style, niche vs designer, size mix, price tiers and quarterly trends. Shares, ranks and indices only.",
+  "homepage": "https://www.scento.com/perfume-industry-statistics",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Scento",
+      "path": "https://www.scento.com",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "perfume",
+    "fragrance",
+    "ecommerce",
+    "europe",
+    "retail"
+  ],
+  "sources": [
+    {
+      "title": "Scento Fragrance Index",
+      "path": "https://www.scento.com/data/scento-fragrance-index/latest.csv"
+    }
+  ],
+  "resources": [
+    {
+      "name": "scento-fragrance-index",
+      "path": "scento-fragrance-index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "metric",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "type": "string"
+          },
+          {
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "rank",
+            "type": "integer"
+          },
+          {
+            "name": "perfume",
+            "type": "string"
+          },
+          {
+            "name": "house",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "string"
+          },
+          {
+            "name": "share",
+            "type": "number"
+          },
+          {
+            "name": "index",
+            "type": "number"
+          },
+          {
+            "name": "is_scento_house",
+            "type": "boolean"
+          },
+          {
+            "name": "suppressed",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
